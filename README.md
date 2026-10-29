@@ -37,6 +37,12 @@ A structured project workspace for examining the relationship between agricultur
 **Tools and workflow:** SQLite, SQL, processed datasets, Python notebooks, and planned dashboard outputs  
 [Explore the project](https://github.com/Risper-Nyawira/kenya-food-security-analysis)
 
+### 4. Sichei Soil Health: Land Use, Management Practices and Recorded Erosion
+An exploratory analysis of 160 Sichei-labelled plot records from an ICRAF soil and land-health dataset. The project documents data-quality checks, a first-pass data dictionary, land-use and management summaries, and limitations in the recorded erosion indicators. It distinguishes descriptive patterns from causal claims and flags code definitions for verification.
+
+**Focus:** Soil and land health, sustainable land management, agricultural data quality, descriptive statistics, and reproducible Excel workflows  
+[Explore the project documentation](projects/sichei-soil-health-analysis/README.md)
+
 ## Skills and tools
 
 - **Research:** Literature and desk reviews, survey research, data interpretation, research documentation
