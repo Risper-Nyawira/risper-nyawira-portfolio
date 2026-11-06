@@ -139,3 +139,44 @@ footer { padding: 44px 0; background: var(--forest); color: var(--cream); }foote
   letter-spacing: .04em;
   text-transform: uppercase;
 }
+
+.case-study { padding-bottom: 90px; }
+.case-hero { padding-top: 76px; padding-bottom: 54px; }
+.case-hero h1 {
+  max-width: 900px;
+  margin: 14px 0 22px;
+  color: var(--forest);
+  font: 600 clamp(2.8rem, 6vw, 5.4rem)/.98 "Playfair Display", serif;
+  letter-spacing: -.055em;
+}
+.case-lead { max-width: 780px; font-size: 1.12rem; line-height: 1.65; }
+.case-meta {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin: 38px 0 22px;
+}
+.case-meta > div { padding: 16px; border-top: 2px solid var(--forest); background: rgba(251,248,240,.65); }
+.case-meta span { display: block; margin-bottom: 8px; color: var(--muted); font: 500 .62rem "DM Mono", monospace; letter-spacing: .06em; text-transform: uppercase; }
+.case-meta strong { display: block; color: var(--forest); font-size: .9rem; line-height: 1.35; }
+.case-warning { max-width: 900px; padding: 14px 16px; border-left: 3px solid var(--coral); background: rgba(251,248,240,.8); font-size: .88rem; line-height: 1.5; }
+.case-section { padding-top: 46px; padding-bottom: 24px; }
+.case-section h2 { max-width: 850px; margin: 10px 0 20px; color: var(--forest); font: 600 clamp(1.8rem, 3.3vw, 2.8rem)/1.08 "Playfair Display", serif; letter-spacing: -.035em; }
+.case-section p, .case-section li { max-width: 900px; font-size: .96rem; line-height: 1.72; }
+.case-section ul, .case-section ol { padding-left: 1.35rem; }
+.case-section li { margin: 7px 0; }
+.case-table-wrap { overflow-x: auto; margin: 24px 0; }
+.case-table { width: 100%; border-collapse: collapse; background: rgba(251,248,240,.6); font-size: .82rem; line-height: 1.45; }
+.case-table th, .case-table td { padding: 12px 13px; border-bottom: 1px solid rgba(17,37,31,.16); text-align: left; vertical-align: top; }
+.case-table th { color: var(--cream); background: var(--forest); font: 500 .65rem "DM Mono", monospace; letter-spacing: .04em; text-transform: uppercase; }
+.case-table td:first-child { white-space: nowrap; font: 500 .7rem "DM Mono", monospace; }
+.case-steps { columns: 2; column-gap: 42px; }
+.case-steps li { break-inside: avoid; }
+@media (max-width: 720px) {
+  .case-meta { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .case-steps { columns: 1; }
+  .case-hero { padding-top: 48px; }
+}
+@media (max-width: 420px) {
+  .case-meta { grid-template-columns: 1fr; }
+}
