@@ -22,7 +22,7 @@ A structured assessment of ten agricultural interventions using a reusable 18-st
 **Evidence discipline:** The tracker distinguishes implementation evidence, programme-reported results, observed outcomes and credible causal impact evidence. It is a preliminary evidence-tracking exercise, not an official programme evaluation or ten completed impact evaluations.
 
 **Methods and tools:** Desk research, evidence synthesis, structured assessment, Excel documentation.  
-[Explore the repository](https://github.com/Risper-Nyawira/kenya-agricultural-policy-impact-tracker)
+[Read the portfolio case study](projects/policy-impact-tracker.html) · [Explore the repository](https://github.com/Risper-Nyawira/kenya-agricultural-policy-impact-tracker)
 
 ### 2. Tomato Marketing Channels and Value-Chain Challenges — Murang'a County
 **Research question:** What marketing channels do smallholder tomato farmers use, and what constraints shape their marketing decisions and outcomes?
