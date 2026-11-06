@@ -1,82 +1,125 @@
-# Risper Nyawira
-### Agricultural Research & Data Analytics | Market Systems | Policy Impact | Sustainable Food Systems
+# Risper Nyawira Munyiri
 
-I work at the intersection of **agricultural economics, applied research, data analysis, and sustainable development**. My focus is turning agricultural, market, climate, and programme data into clear evidence that can support better decisions for farmers, communities, and development practitioners.
+### Agricultural Research & Data Analytics | Agricultural Economics | Policy & Market Systems | Sustainable Food Systems | MEAL
 
-I hold an academic background in **Agricultural Economics and Rural Development at JKUAT** and bring experience across agricultural research, extension, data quality, and development programming, including work with **SNV's CASHA programme**.
+I am an Agricultural Economics and Rural Development graduate from Jomo Kenyatta University of Agriculture and Technology (JKUAT), building a career in applied agricultural research and data analytics.
 
-## What I'm exploring
+My work brings together agricultural economics, farmer-level field research, data management and analysis, policy evidence, market systems and development-programme exposure. I am interested in turning agricultural and programme information into clear, responsibly interpreted evidence that can support decisions affecting farmers, rural livelihoods and food systems.
 
-- Agricultural market systems and smallholder market access
-- Food security, agricultural production, and climate variability
-- Agricultural policy analysis and monitoring, evaluation, accountability and learning (MEAL)
-- Data quality assurance, research workflows, and reproducible analysis
-- Sustainable and climate-smart food systems
-
-## Selected portfolio projects
-
-### 1. Food-Producing Communities and Food Security in Kenya
-**Question:** Why can food-producing communities still experience food insecurity?
-
-Combines maize production and yield, cultivated area, retail prices, climate indicators, and food-insecurity measures to explore how production interacts with affordability, market access, and household food security.
-
-**Tools:** SQL/SQLite, Python, pandas, Matplotlib, Power BI  
-[Explore the project](https://github.com/Risper-Nyawira/food-producing-communities-food-security)
-
-### 2. Kenya Agricultural Market Intelligence
-A developing analysis of agricultural market prices, seasonality, variability, production context, and climate data, beginning with a focused tomato-market pilot.
-
-The project documents data coverage and limitations and distinguishes observed associations from causal claims.
-
-**Focus:** Market intelligence, data auditing, agricultural value chains, and evidence for decision-making  
-[Explore the project](https://github.com/Risper-Nyawira/kenya-agricultural-market-intelligence.)
-
-### 3. Kenya Food Security Analysis
-A structured project workspace for examining the relationship between agricultural production, climate variability, market dynamics, and food security using a documented data workflow.
-
-**Tools and workflow:** SQLite, SQL, processed datasets, Python notebooks, and planned dashboard outputs  
-[Explore the project](https://github.com/Risper-Nyawira/kenya-food-security-analysis)
-
-### 4. Sichei Soil Health: Land Use, Management Practices and Recorded Erosion
-An exploratory analysis of 160 Sichei-labelled plot records from an ICRAF soil and land-health dataset. The project documents data-quality checks, a first-pass data dictionary, land-use and management summaries, and limitations in the recorded erosion indicators. It distinguishes descriptive patterns from causal claims and flags code definitions for verification.
-
-**Focus:** Soil and land health, sustainable land management, agricultural data quality, descriptive statistics, and reproducible Excel workflows  
-[Explore the project documentation](projects/sichei-soil-health-analysis/README.md)
-
-## Skills and tools
-
-- **Research:** Literature and desk reviews, survey research, data interpretation, research documentation
-- **Agriculture and development:** Agricultural economics, value-chain analysis, extension, market systems, food security
-- **Data:** Data cleaning, data quality assurance, exploratory analysis, descriptive statistics, data visualisation
-- **Tools:** Excel/Google Sheets, SQL, SQLite, Python, pandas, Matplotlib, Power BI
-- **Programme learning:** MEAL concepts, activity tracking, reporting, and evidence-informed learning
-
-I am continuing to build my technical portfolio in Python, SQL, Power BI, and research analytics. GIS is an area I plan to develop further; I do not present it as an established skill yet.
-
-## How I approach analysis
-
-- Start with a clear, decision-relevant research question.
-- Document sources, definitions, cleaning decisions, and data limitations.
-- Make the workflow as reproducible as possible.
-- Separate descriptive patterns and correlations from causal conclusions.
-- Translate results into practical insights without overstating what the data can show.
-
-## Background
-
-- **Education:** Agricultural Economics and Rural Development, Jomo Kenyatta University of Agriculture and Technology (JKUAT)
-- **Current experience:** Internship with SNV's CASHA programme
-- **Research experience:** Agricultural marketing research, including work on tomato marketing channels and challenges affecting smallholder farmers in Murang'a
-- **Agricultural experience:** Horticulture and agricultural extension exposure through Fair Trade Enterprise
-- **Data experience:** Data annotation and quality-focused work with CloudFactory
-- **Professional learning:** MEAL, Python, data visualisation, Power BI, and applied analytics
-
-## Connect
-
-- **LinkedIn:** [Risper Nyawira](https://www.linkedin.com/in/risper-nyawira/)
-- **GitHub:** [Risper-Nyawira](https://github.com/Risper-Nyawira)
-
-I'm interested in connecting with researchers, agricultural and development organisations, data practitioners, and collaborators working on evidence-based solutions for food systems and rural livelihoods.
+**Portfolio website:** [View my professional portfolio](https://github.com/Risper-Nyawira/risper-nyawira-portfolio)  
+**LinkedIn:** [Risper Nyawira](https://www.linkedin.com/in/risper-nyawira/)  
+**GitHub:** [Risper-Nyawira](https://github.com/Risper-Nyawira)
 
 ---
 
-*This portfolio is a work in progress. Project findings and technical claims are documented alongside their data sources, methods, and limitations as the work develops.*
+## Selected research and analytical projects
+
+### 1. Kenya Agricultural Policy Impact Tracker
+**Research question:** What evidence is available on the implementation and outcomes of major agricultural interventions in Kenya?
+
+A structured assessment of ten agricultural interventions using a reusable 18-step framework, intervention summaries, an evidence register and an integrated research workbook. The project examines productivity, farmer livelihoods, market outcomes, food security, resilience and sustainability.
+
+**Evidence discipline:** The tracker distinguishes implementation evidence, programme-reported results, observed outcomes and credible causal impact evidence. It is a preliminary evidence-tracking exercise, not an official programme evaluation or ten completed impact evaluations.
+
+**Methods and tools:** Desk research, evidence synthesis, structured assessment, Excel documentation.  
+[Explore the repository](https://github.com/Risper-Nyawira/kenya-agricultural-policy-impact-tracker)
+
+### 2. Tomato Marketing Channels and Value-Chain Challenges — Murang'a County
+**Research question:** What marketing channels do smallholder tomato farmers use, and what constraints shape their marketing decisions and outcomes?
+
+Lead researcher for a five-person research team and a farmer survey involving approximately 200 respondents. Contributions included research questions and tools, farmer survey work, team coordination, analysis and reporting outputs.
+
+**Methods and outputs:** Primary farmer research, SPSS analysis outputs and a Tobit results workbook. Respondent-level raw data are not included in the public repository.
+
+[Explore the research materials](https://github.com/Risper-Nyawira/Tomato-value-chain-challenges)
+
+### 3. Kenya Agricultural Market Intelligence
+A developing analytical project using tomato wholesale prices as its first pilot. It documents source coverage, data audits, preparation scripts, SQL/SQLite workflows and market-price analysis, with production and climate information treated as contextual evidence.
+
+**Methods and tools:** Data inventory and auditing, Python, SQL, SQLite, exploratory market analysis and visualisation.
+
+**Limitation:** Market-point climate proxies do not establish conditions in the production areas supplying each market. Observed relationships are not presented as causal effects.
+
+[Explore the repository](https://github.com/Risper-Nyawira/kenya-agricultural-market-intelligence.)
+
+### 4. Kenya Food Security Analysis
+An analytical workflow examining how agricultural production, climate variability and market dynamics relate to food security in Kenya. The repository includes processed data, a SQLite database, SQL views, a Python notebook, charts and a Power BI dashboard.
+
+**Methods and tools:** Data preparation, SQL/SQLite, Python, pandas, visualisation and Power BI.
+
+**Limitation:** The food-insecurity indicator is a three-year moving average with eight available observations. The analysis identifies patterns and context; it does not prove that a single factor caused food insecurity.
+
+[Explore the repository](https://github.com/Risper-Nyawira/kenya-food-security-analysis)
+
+### 5. Sichei Soil Health: Land Use, Management Practices and Recorded Erosion
+An exploratory analysis of 160 Sichei-labelled plot records from a soil and land-health dataset. The project documents data checks, land-use and management summaries, a selected data dictionary and interpretation limits.
+
+**Methods and focus:** Excel-based data audit, descriptive analysis, soil and land health, sustainable land management.
+
+**Limitation:** The selected erosion indicators have very few positive observations, so robust erosion-group inference is not supported. The analysis is descriptive, not causal. The scope is limited to the Sichei records selected for this project.
+
+[Explore the project documentation](projects/sichei-soil-health-analysis/README.md)
+
+### Related food-systems analysis
+[Food-Producing Communities and Food Security in Kenya](https://github.com/Risper-Nyawira/food-producing-communities-food-security) explores why food production alone does not guarantee household food security, using maize production, cultivated area, yield, prices, climate indicators and food-insecurity data. It is related to the broader Kenya Food Security Analysis and should be read as a connected analytical question, not assumed to be an unrelated independent study.
+
+---
+
+## Professional experience
+
+- **SNV — CASHA Programme, Internship (Sep–Dec 2026):** Development-programme exposure across value-chain mapping and market analysis, participant and activity data, data cleaning and standardisation, data-quality assessment processes, GESI/YEE concepts and MEAL practice.
+- **Tomato marketing research, Murang'a (Dec 2025–Jan 2026):** Lead researcher; coordinated a five-person team and contributed to farmer surveys, research tools, analysis and reporting.
+- **Fair Trade Enterprise (May–Aug 2023; Apr–Aug 2025):** Organic agriculture, horticultural production and avocado production/export exposure.
+- **CloudFactory — Data Annotation (six-month engagement, 2024–2025):** Structured data annotation work requiring attention to task guidelines and quality-controlled workflows.
+- **Additional field experience:** Agricultural enumeration, farmer interviews, extension/community engagement and SHEP market-survey exposure.
+
+---
+
+## Skills and methods
+
+| Area | Capabilities |
+|---|---|
+| Agricultural economics | Agricultural markets, production economics, value chains, food security, rural livelihoods and policy context |
+| Research and fieldwork | Research questions, desk review, farmer surveys, questionnaire administration, field data collection, research coordination and reporting |
+| Data management | Excel (intermediate), Google Sheets, data cleaning, standardisation, cross-checking, DQA documentation and KoboToolbox/KoboCollect workflows |
+| Data analysis | SQL, SQLite, Python, pandas, Matplotlib, descriptive analysis and data visualisation |
+| Development and MEAL | MEAL foundations, DQA exposure, participant/activity tracking, programme reporting and GESI/YEE awareness |
+| Sustainable food systems | Soil and land health, regenerative agriculture, agroforestry, climate adaptation and circular bioeconomy |
+
+I am continuing to develop my technical depth in Python, SQL, Power BI and GIS/QGIS. GIS/QGIS and advanced analytical methods are learning priorities rather than skills I currently present as established professional specialisms.
+
+---
+
+## Education and professional learning
+
+- **BSc Agricultural Economics and Rural Development**, Jomo Kenyatta University of Agriculture and Technology (JKUAT), 2026.
+- MEAL certification and Save the Children field introduction to MEAL.
+- Microsoft Power BI training.
+- IBM Python for Data Science.
+- IBM Data Visualization with Python.
+- Cisco Introduction to Modern AI.
+- World Bank learning on scalable solutions for better jobs in agriculture.
+- Additional learning in aquaculture co-management, the Water–Energy–Food nexus and climate information systems.
+
+---
+
+## Research interests
+
+- Agricultural policy effectiveness and development outcomes
+- Smallholder farmer livelihoods, profitability and market access
+- Food security, affordability and resilient food systems
+- Agricultural market intelligence and value-chain performance
+- Regenerative agriculture, soil health and climate resilience
+- Data quality, MEAL and evidence-informed programme learning
+
+## How I approach evidence
+
+1. Define a clear, decision-relevant research question.
+2. Document sources, coverage, definitions and data limitations.
+3. Make data preparation and analytical steps transparent.
+4. Separate reported results, descriptive patterns, associations and causal conclusions.
+5. Translate findings into practical implications without overstating what the evidence can support.
+
+---
+
+*This portfolio is a developing body of work. Project status, methods, findings and limitations are described as accurately as possible, and preliminary analyses are labelled accordingly.*
