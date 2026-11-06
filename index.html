@@ -19,7 +19,7 @@
     <a class="brand" href="#top" aria-label="Risper Nyawira Munyiri home">RN<span>.</span></a>
     <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">Menu</button>
     <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
-      <a href="#about">Profile</a><a href="#work">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#learning">Learning</a><a href="#contact">Contact</a>
+      <a href="#about">Profile</a><a href="#research-map">Research map</a><a href="#work">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#learning">Learning</a><a href="#contact">Contact</a>
     </nav>
   </header>
   <main id="main-content">
@@ -46,6 +46,57 @@
         <p class="section-label">The question behind my work</p>
         <blockquote>How can reliable agricultural and programme evidence improve decisions for farmers, communities and food systems?</blockquote>
       </div>
+    </section>
+
+
+    <section class="systems-map section-shell" id="research-map">
+      <div class="section-heading"><p class="section-label">Research architecture / How the work connects</p><h2>One agricultural system. Multiple connected questions.</h2></div>
+      <p class="systems-intro">My projects investigate different parts of the same wider system: how natural resources, production decisions, markets, household food security and public interventions interact to shape agricultural livelihoods and resilience.</p>
+      <div class="systems-flow" aria-label="Conceptual research map connecting the portfolio projects">
+        <article class="system-layer layer-context">
+          <span class="layer-index">01 / SYSTEM OUTCOMES</span>
+          <h3>Food security & rural livelihoods</h3>
+          <p>What outcomes matter for households and food-producing communities?</p>
+          <div class="system-projects">
+            <a href="https://github.com/Risper-Nyawira/kenya-food-security-analysis" target="_blank" rel="noreferrer"><b>Kenya Food Security Analysis</b><span>Production, climate, markets and food-insecurity indicators</span></a>
+            <a href="https://github.com/Risper-Nyawira/food-producing-communities-food-security" target="_blank" rel="noreferrer"><b>Food-Producing Communities</b><span>Why food production alone may not guarantee household food security</span></a>
+          </div>
+        </article>
+        <div class="map-connector"><span>Household outcomes depend on conditions across the system</span><i aria-hidden="true">↕</i></div>
+        <div class="system-pair">
+          <article class="system-layer layer-production">
+            <span class="layer-index">02 / PRODUCTION FOUNDATION</span>
+            <h3>Land, soil & farm resources</h3>
+            <p>What natural-resource conditions and management questions shape production?</p>
+            <div class="system-projects">
+              <a href="projects/sichei-soil-health-analysis/README.md"><b>Sichei Soil Health</b><span>Land use, management practices and recorded erosion</span></a>
+            </div>
+          </article>
+          <article class="system-layer layer-markets">
+            <span class="layer-index">03 / MARKET SYSTEMS</span>
+            <h3>Prices, value chains & farmer access</h3>
+            <p>How do market structures and value-chain constraints shape farmer opportunities?</p>
+            <div class="system-projects">
+              <a href="https://github.com/Risper-Nyawira/Tomato-value-chain-challenges" target="_blank" rel="noreferrer"><b>Tomato Marketing Research</b><span>Farmer-reported channels and smallholder marketing constraints</span></a>
+              <a href="https://github.com/Risper-Nyawira/kenya-agricultural-market-intelligence" target="_blank" rel="noreferrer"><b>Agricultural Market Intelligence</b><span>Price variation, seasonality and market context</span></a>
+            </div>
+          </article>
+        </div>
+        <div class="map-connector"><span>Evidence on system constraints informs questions about public responses</span><i aria-hidden="true">↓</i></div>
+        <article class="system-layer layer-policy">
+          <span class="layer-index">04 / INSTITUTIONS & RESPONSES</span>
+          <h3>Agricultural policy & development interventions</h3>
+          <p>What are programmes designed to change, what do they report, and what outcomes can available evidence establish?</p>
+          <div class="system-projects">
+            <a href="projects/policy-impact-tracker.html"><b>Kenya Agricultural Policy Impact Tracker</b><span>Ten preliminary intervention evidence assessments; implementation, outcome and attribution gaps</span></a>
+          </div>
+        </article>
+      </div>
+      <div class="systems-synthesis">
+        <span class="layer-index">05 / THE RESEARCH PRACTICE CONNECTING THE PROJECTS</span>
+        <div><h3>From a systems question to decision-useful evidence</h3><p>Define the problem → map the system → identify data → assess quality → analyse patterns → evaluate evidence strength → explain implications and remaining gaps.</p></div>
+      </div>
+      <p class="systems-caveat"><b>How to read this map:</b> The links represent a conceptual research architecture, not proof that one project's findings statistically explain another. Each project has its own scope, data and limitations. The map shows how the questions fit together and where future integrated research could be developed.</p>
     </section>
 
     <section class="section-shell about" id="about">
@@ -103,18 +154,18 @@
           <div class="project-number">03</div>
           <p class="kicker">Kenya Agricultural Market Intelligence</p>
           <h3>From agricultural price data to market intelligence.</h3>
-          <p>A tomato-market pilot combining market-price records with production and climate context to examine price differences, seasonality and variability across markets.</p>
+          <p>A tomato-market pilot combining market-price records with production and climate context to examine price differences, seasonality and variability across markets. It complements the farmer-level tomato marketing study by examining market-price patterns from a separate data perspective.</p>
           <div class="project-insights"><p><b>Workflow</b> Source inventory, data audits, preparation scripts, SQL/SQLite and analytical outputs.</p></div>
           <p class="note">Market-point climate measures are contextual proxies, not proof of the conditions in the areas supplying each market.</p>
           <ul class="tags"><li>Python</li><li>SQL / SQLite</li><li>Data quality</li><li>Market analysis</li></ul>
-          <a class="text-link" href="https://github.com/Risper-Nyawira/kenya-agricultural-market-intelligence." target="_blank" rel="noreferrer">Explore project repository ↗</a>
+          <a class="text-link" href="https://github.com/Risper-Nyawira/kenya-agricultural-market-intelligence" target="_blank" rel="noreferrer">Explore project repository ↗</a>
         </article>
 
         <article class="project-card">
           <div class="project-number">04</div>
           <p class="kicker">Kenya Food Security Analysis</p>
           <h3>How do production, climate and markets relate to food security?</h3>
-          <p>An analytical workflow linking maize production, climate variability, market dynamics and a national food-insecurity indicator, with documented data preparation and analysis.</p>
+          <p>An analytical workflow linking maize production, climate variability, market dynamics and a national food-insecurity indicator, with documented data preparation and analysis. Related work on food-producing communities explores the household and community dimensions of this wider question.</p>
           <div class="project-insights"><p><b>Workflow</b> Cleaned data, SQLite views, Python notebook, charts and a Power BI dashboard.</p><p><b>Limitation</b> The food-insecurity series has eight observations and uses a three-year moving average; the analysis is descriptive, not causal.</p></div>
           <ul class="tags"><li>SQL / SQLite</li><li>Python</li><li>Power BI</li><li>Food security</li></ul>
           <a class="text-link" href="https://github.com/Risper-Nyawira/kenya-food-security-analysis" target="_blank" rel="noreferrer">Explore analysis & outputs ↗</a>
