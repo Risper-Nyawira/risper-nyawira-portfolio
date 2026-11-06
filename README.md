@@ -12,6 +12,21 @@ My work brings together agricultural economics, farmer-level field research, dat
 
 ---
 
+## Connected portfolio: an agricultural-systems research architecture
+
+The projects are connected by a common question: **how do natural resources, production, markets, household food security and public interventions interact to shape agricultural livelihoods and resilient food systems?**
+
+- **System outcomes — food security and rural livelihoods.** [Kenya Food Security Analysis](https://github.com/Risper-Nyawira/kenya-food-security-analysis) examines relationships among production, climate, markets and a national food-insecurity indicator. [Food-Producing Communities and Food Security](https://github.com/Risper-Nyawira/food-producing-communities-food-security) explores the household and community dimensions of the wider food-security question.
+- **Production foundations — land and natural resources.** [Sichei Soil Health](projects/sichei-soil-health-analysis/README.md) explores plot-level land use, management practices and recorded erosion. It adds a natural-resource perspective; it does not establish causal effects on yields or food security.
+- **Market systems — prices and value chains.** [Tomato Marketing Channels Research](https://github.com/Risper-Nyawira/Tomato-value-chain-challenges) uses primary farmer research to examine marketing channels and constraints. [Kenya Agricultural Market Intelligence](https://github.com/Risper-Nyawira/kenya-agricultural-market-intelligence) analyses market-price patterns and contextual data. These are complementary perspectives, not a single linked dataset or a proven causal chain.
+- **Institutional responses — agricultural policy and development interventions.** [Kenya Agricultural Policy Impact Tracker](https://github.com/Risper-Nyawira/kenya-agricultural-policy-impact-tracker) assesses the public evidence available for ten interventions, separating implementation reporting, observed outcomes and causal claims.
+
+**The common research workflow:** define a decision-relevant problem → map the system and affected actors → identify and audit evidence → analyse patterns → assess the strength of claims → explain implications, limitations and next data needs.
+
+These connections form a conceptual research architecture. They show how the questions relate and where integrated future research could be developed; they do not imply that findings from one project have statistically explained or validated another.
+
+---
+
 ## Selected research and analytical projects
 
 ### 1. Kenya Agricultural Policy Impact Tracker
@@ -40,7 +55,7 @@ A developing analytical project using tomato wholesale prices as its first pilot
 
 **Limitation:** Market-point climate proxies do not establish conditions in the production areas supplying each market. Observed relationships are not presented as causal effects.
 
-[Explore the repository](https://github.com/Risper-Nyawira/kenya-agricultural-market-intelligence.)
+[Explore the repository](https://github.com/Risper-Nyawira/kenya-agricultural-market-intelligence)
 
 ### 4. Kenya Food Security Analysis
 An analytical workflow examining how agricultural production, climate variability and market dynamics relate to food security in Kenya. The repository includes processed data, a SQLite database, SQL views, a Python notebook, charts and a Power BI dashboard.
